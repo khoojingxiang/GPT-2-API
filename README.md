@@ -21,8 +21,9 @@ To use the GPT-2 API:
 
   4. Use the following JSON format:
         
-     {"inputs": "*Type your sentence here*"}"
+     {"inputs": "*Type your sentence here*"}
 
         Replace "*Type your sentence here*" with the sentence you want the model to continue.
+        E.g {"inputs": "i love reading"}
 
-  5. In the response body, you should see your sentence elaborated upon.
+  5. In the response body, you should see your original sentence you typed being elaborated upon.

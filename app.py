@@ -18,7 +18,7 @@ def generate_text():
 
 @app.route('/')
 def index():
-    # code to handle the root path (e.g., return a welcome message)
+    # code to handle the root path (instruction message)
     instructions = (
         "Welcome to Jing Xiang API!\n\n"
 

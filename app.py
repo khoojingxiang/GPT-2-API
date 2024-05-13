@@ -29,7 +29,7 @@ def index():
         "1. In the Postman web application (or download it), set the request URL to:\n"
         
         "https://api-back-with-gpt-2-ai.azurewebsites.net/generate-text\n"
-        "```\n\n"
+        "\n\n"
 
         "2. Set the request method to \"POST\".\n\n"
 
@@ -38,7 +38,7 @@ def index():
         "4. Use the following JSON format:\n\n"
         
         "{\"inputs\": \"*Type your sentence here*\"}"
-        "```\n"
+        "\n"
         "Replace \"*Type your sentence here*\" with the sentence you want the model to continue.\n\n"
 
         "5. In the response body, you should see your sentence elaborated upon.\n"

@@ -22,21 +22,21 @@ def index():
     instructions = (
         "Welcome to Jing Xiang API!\n\n"
 
-        "For this API to work, you'll need the Postman application.\n\n"
+        "For this API to work, you'll need the Postman application and append the back of the url with /generate-text.\n\n"
 
         "To use the GPT-2 API:\n\n"
 
         "1. In the Postman web application (or download it), set the request URL to:\n"
-        "```\n"
-        "[https://rhino-aware-unduly.ngrok-free.app/generate-text](https://rhino-aware-unduly.ngrok-free.app/generate-text)\n"
+        
+        "https://api-back-with-gpt-2-ai.azurewebsites.net/generate-text)\n"
         "```\n\n"
 
         "2. Set the request method to \"POST\".\n\n"
 
         "3. Go to the request body and choose \"json\" as the type.\n\n"
 
-        "4. Use the following JSON format:\n"
-        "```json\n"
+        "4. Use the following JSON format:\n\n"
+        
         "{\"inputs\": \"*Type your sentence here*\"}"
         "```\n"
         "Replace \"*Type your sentence here*\" with the sentence you want the model to continue.\n\n"

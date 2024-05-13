@@ -28,7 +28,7 @@ def index():
 
         "1. In the Postman web application (or download it), set the request URL to:\n"
         
-        "https://api-back-with-gpt-2-ai.azurewebsites.net/generate-text)\n"
+        "https://api-back-with-gpt-2-ai.azurewebsites.net/generate-text\n"
         "```\n\n"
 
         "2. Set the request method to \"POST\".\n\n"

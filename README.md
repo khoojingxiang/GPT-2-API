@@ -1,6 +1,6 @@
 # GPT-2-API
 API with GPT-2 by KJX(KHoo Jing Xiang)
-For this API to work, you'll need the Postman application and append the back of the url with /generate-text in Postman
+For testing of the API, i have used the Postman API application and you would need to append the back of the url with /generate-text in Postman if you are using it.
 
 # About Postman
 Postman is a platform for API development. allowing developers to design, test, and document APIs quickly and easily. With Postman, you can create and send HTTP requests, inspect responses, automate workflows, and share your APIs.

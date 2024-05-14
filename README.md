@@ -10,7 +10,7 @@ It leverages the GPT-2 pre-trained model on English language using a causal lang
 
 The GPT-2 model is part of the Transformers architecture, trained extensively on a vast amount of English text without human labeling. It's designed to predict the next word in a sentence. Essentially, the model takes raw text as input, without any explicit instructions or annotations, and learns to generate coherent responses based on the patterns it discerns in the training data. In simpler terms, you provide the model with a piece of text, and it generates a continuation or completion of that text, often in the form of coherent sentences or paragraphs. 
 
-The model only accepts and input json data else it will throwback and error message. e.g of json data
+The API route to /generate-text only accepts POST method and input json data else it will throwback and error message. e.g of json data
 
 {
   "inputs": "i love writing"
